@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="courseName" value="Selenium"/>
+    <parameter name="cityName" value="Mumbai"/>
+    <parameter name="browserName" value="chrome"/>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Akash Patnaik/IdeaProjects/MavenProject/src/test/java/testng/parameterization/DataProviderWithExcelSheet.java">
+        <classes>
+            <class name="testng.parameterization.DataProviderWithExcelSheet">
+                <methods>
+                    <include name="verifyBastInstitute"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
